@@ -1,6 +1,6 @@
 # GEDAN: Learning the Edit Costs for Graph Edit Distance
 
-The project introduces an interpretable GNN framework for approximating Graph Edit Distance (GED) through context-aware edit cost learning, applicable in both supervised and unsupervised settings, and effective for molecular analysis.
+The project introduces an interpretable GNN framework for approximating Graph Edit Distance (GED) through context-aware edit cost learning, applicable in both supervised and unsupervised settings, and effective for molecular analysis. ([paper](https://arxiv.org/pdf/2508.03111v2))
 
 ![GEDAN idea](molecules/figures/sample_GEDAN.png)
 ---
@@ -85,4 +85,14 @@ Where:
 Example:
 ```
 python script_EC.py --dataset FreeSolv
+```
+
+## Cite
+```
+@article{leonardi2025gedan,
+  title={GEDAN: Learning the Edit Costs for Graph Edit Distance},
+  author={Leonardi Francesco, Orsi Markus, Reymond Jean-Louis and Riesen Kaspar},
+  journal={arXiv preprint arXiv:2508.03111},
+  year={2025}
+}
 ```
